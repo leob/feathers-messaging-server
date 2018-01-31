@@ -18,6 +18,7 @@
     "yarn": ">= 0.18.0"
   },
   "scripts": {
+    "dev": "nodemon --watch src --exec npm run debug",
     "test": "npm run eslint && npm run mocha",
     "eslint": "eslint src/. test/. --config .eslintrc.json",
     "start": "nodemon src/",
